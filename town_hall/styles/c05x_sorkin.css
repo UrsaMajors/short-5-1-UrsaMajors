@@ -38,9 +38,7 @@ blockquote {
 ul {
     padding:0px 20px 0px 20px;
 }
-li {
-   
-}
+
 cite {
     color:blue;
     font-style:initial;
@@ -54,7 +52,8 @@ cite {
     border-top: 3px solid blue;
     font-size:90%;
     font-weight:bold;
-   text-align:center;
+   text-align: center;
+        margin:0px 15px 0px 15px;
 }
 img{
     float:left;
