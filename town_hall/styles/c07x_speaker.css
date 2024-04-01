@@ -105,3 +105,59 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
+/* the styles for the navigation menu */
+nav {
+	clear: both;
+}
+
+	nav ul {
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+		position: relative;
+	}
+
+		nav ul li {
+			float: left;
+		}
+
+			nav ul li a {
+				text-align: center;
+				display: block;
+				width: 168px;
+				padding: 1em 0em 1em 0em;
+				text-decoration: none;
+				background-color: #800000;
+				color: white;
+				font-weight: bold;
+				border-right: 2px solid #fffded;
+			}
+
+				nav ul li a.lastitem {
+					width: 170px;
+					border-right: none;
+				}
+
+				nav ul li a.current {
+					color: yellow;
+				}
+
+		nav ul ul {
+			display: none;
+			position: absolute;
+			top: 100%;
+		}
+
+			nav ul ul li {
+				float: none;
+			}
+
+		nav ul li:hover > ul {
+			display: block;
+		}
+
+	nav > ul::after {
+		content: "";
+		display: block;
+		clear: both;
+	}
